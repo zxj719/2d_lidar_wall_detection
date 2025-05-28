@@ -85,7 +85,7 @@ WallDetectionResult result = detector.getDetailedResult();
 ## Outputs
 - **Boolean wall flag**: `True` if collision point belongs to wall
 - **Wall segments**: List of line parameters (slope, intercept, variance)
-- **Visual markers** (ROS compatible):
+- **Visual markers**:
   - Green lines: Detected wall segments
   - Red points: Noise points
   - Blue markers: Collision point context
